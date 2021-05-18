@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(41,41,41);
+    background: rgb(238, 238, 238);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Buttons */
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+    background-image: linear-gradient(to right, #00d8ff 0%, #00a2ff  51%, #5cc3ff 100%);
+}
+
+/* Header */ 
+
+header {
+    background: white;
+    margin: -10px;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+#snlogo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#headerbuttons {
+    float: right;
+    font-size: 18px;
+    display: inline-flex;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
+.headerlist li a {
+    text-decoration: none;
+    color: rgb(41,41,41);
+    padding: 10px 10px 10px 10px;
+}
+
+.headerlist {
+    list-style-type: none;
+}
+
+.headerlist1 {
+    list-style-type: none;
+}
+
+.headerlist1 li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.lineup a:hover {
+    color: #00d8ff;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.lineup1 a:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.lineup1 a {
+    color: white;
+}
+
+/* section 1 */
+
+#tableContainer {
+    display: table;
+    border-spacing: 10px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 25px #00d9ff57;
+    position: relative;
+}
+  
+#tableRow {
+    display: table-row;
+}
+
+#section1pic {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+#section1 {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+}
+
+#section1 h1 {
+    font-size: 30px;
+}
+
+#section1 p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+
+#section1 a{
+    color: rgb(42,42,42);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#section1 a:hover{
+    color: #00d8ff;
+}
+
+#pinknails {
+    margin-top: 15px;
+    text-align: center;
+    opacity: 40%;
+}
+
+#section1back {
+    margin-top: -650px;
+}
+
+/* section 2 */
+
+#section2 {
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 250px;
+}
+
+#section2 h1 {
+    font-size: 30px;
+}
+
+#section2 p {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+/* Section 3 */
+
+#section3 h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#pic3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+#pic3:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+/* Section 4 */
+
+#section4 {
+    text-align: center;
+    margin: 20px 100px 20px 100px;
+    padding-bottom: 50px
+}
+
+#section4 img {
+    margin: 20px;
+    border-radius: 25px;
+    transition: transform .2s;
+    box-shadow: 0 0 25px #0000003a;
+}
+
+#section4 img:hover{
+    transform: scale(1.1);
+}
+
+#section4button {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: white;
+    margin: -10px -10px -30px -10px;
+    box-shadow: 0px 0px 5px 0px #888888;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+footer table {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+table td {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    color: rgb(121, 121, 121);
+}
+
+td img {
+    opacity: 70%;
+}
+
+/* Hours and Location */
+
+#hours {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#date {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+#map div p {
+    text-align: center;
+}
+
+#map {
+    margin-bottom: 100px;
+}
