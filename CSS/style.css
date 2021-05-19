@@ -3,6 +3,8 @@ body {
     font-size: small;
     color: rgb(41,41,41);
     background: rgb(238, 238, 238);
+    margin: 0;
+    overflow-x: hidden;
 }
 
 html {
@@ -28,7 +30,7 @@ html {
 }
 
 .btn-1 {
-    background-image: linear-gradient(to right, #00d8ff 0%, #00a2ff  51%, #5cc3ff 100%);
+    background-image: linear-gradient(to right, #00a2ff 0%, #5cc3ff 51%, #00a2ec 100%);
 }
 
 /* Header */ 
@@ -40,7 +42,7 @@ header {
 }
 
 #snlogo {
-    padding-left: 20px;
+    padding-left: 30px;
     padding-top: 10px;
 }
 
@@ -49,13 +51,14 @@ header {
     font-size: 18px;
     display: inline-flex;
     margin-right: 40px;
-    margin-top: 0px;
+    margin-top: 5px;
+    font-weight: 550;
 }
 
 .headerlist li a {
     text-decoration: none;
     color: rgb(41,41,41);
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
 }
 
 .headerlist {
@@ -222,7 +225,7 @@ header {
 }
 
 #section4 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 #section4button {
@@ -236,7 +239,7 @@ header {
 footer {
     text-align: center;
     background-color: white;
-    margin: -10px -10px -30px -10px;
+    margin: -30px;
     box-shadow: 0px 0px 5px 0px #888888;
     font-size: 15px;
     padding-top: 40px;
@@ -286,3 +289,102 @@ td img {
 #map {
     margin-bottom: 100px;
 }
+
+/* Form */ 
+
+form {
+    margin-top: 100px;
+}
+
+form h1, h2 {
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 50px;
+    font-weight: lighter;
+    margin-top: -15px;
+}
+
+form h1 {
+    font-size: 40px;
+}
+
+form p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form textarea{
+	width: 500px;
+	height: 200px;
+    border-radius: 10px;
+    border: 1px solid #00000010;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 5px #0000001c;
+}
+
+.cborder input{
+    border-radius: 10px;
+    width: 500px;
+	height: 50px;
+    border: 1px solid #00000010;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 5px #0000001c;
+}
+
+::placeholder { 
+    color: rgb(173, 173, 173);
+    opacity: 1; 
+}
+
+#sendbutton {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    color: white;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to right, #00a2ff 0%, #5cc3ff 51%, #00a2ec 100%);
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+
+/* Head First Version
+form {
+    display: table;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tableRow2 {
+	display: table-row;
+}
+
+#tablecontainer2 {
+    margin: auto;
+}
+*/
