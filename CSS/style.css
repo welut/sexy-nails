@@ -309,7 +309,7 @@ form h1, h2 {
 }
 
 form h2 {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     font-weight: lighter;
     margin-top: -15px;
 }
@@ -376,23 +376,3 @@ input[type=submit] {
     border-radius: 25px;
     font-size: 18px;
 }
-
-
-/* Head First Version
-form {
-    display: table;
-}
-
-form textarea {
-	width: 500px;
-	height: 200px;
-}
-
-div.tableRow2 {
-	display: table-row;
-}
-
-#tablecontainer2 {
-    margin: auto;
-}
-*/
