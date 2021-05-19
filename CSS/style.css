@@ -278,8 +278,16 @@ td img {
 
 #date {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-size: 16px;
+}
+
+#date p:nth-child(1), p:nth-child(3){
+    font-size: 18px;
+}
+
+#date p:nth-child(2), p:nth-child(4){
+    color: rgb(109, 109, 109);
 }
 
 #map div p {
