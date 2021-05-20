@@ -3,8 +3,9 @@ body {
     font-size: small;
     color: rgb(41,41,41);
     background: rgb(238, 238, 238);
-    margin: 0;
+    margin: 0%;
     overflow-x: hidden;
+    padding: 0%;
 }
 
 html {
@@ -48,11 +49,11 @@ header {
 
 #headerbuttons {
     float: right;
-    font-size: 18px;
+    font-size: 14px;
     display: inline-flex;
     margin-right: 40px;
-    margin-top: 5px;
-    font-weight: 550;
+    margin-top: 10px;
+    font-weight: 400;
 }
 
 .headerlist li a {
@@ -118,6 +119,7 @@ header {
     border-radius: 25px;
     box-shadow: 0 0 25px #00d9ff57;
     position: relative;
+    padding: 0px 10px 0px 10px;
 }
   
 #tableRow {
@@ -137,7 +139,10 @@ header {
 }
 
 #section1 h1 {
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #section1 p {
@@ -150,10 +155,10 @@ header {
 }
 
 #section1 a{
-    color: rgb(42,42,42);
-    text-decoration: none;
-    font-size: 20px;
+    color: rgb(90, 90, 90);
+    font-size: 16px;
     padding-bottom: 30px;
+    text-decoration: none;
 }
 
 #section1 a:hover{
@@ -229,7 +234,7 @@ header {
 }
 
 #section4button {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     margin-bottom: 100px;
 }
