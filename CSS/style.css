@@ -2,7 +2,7 @@ html body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     color: rgb(41,41,41);
-    background: rgb(238, 238, 238);
+    background: white;
     margin: 0%;
     overflow-x: hidden;
     padding: 0%;
@@ -52,7 +52,6 @@ header {
     font-size: 14px;
     display: inline-flex;
     margin-right: 40px;
-    margin-top: 0px;
     font-weight: 400;
 }
 
@@ -102,11 +101,37 @@ header {
 .lineup1 a:hover {
     animation-name: bounce;
     animation-timing-function: ease;
+    color: white;
 }
 
 .lineup1 a {
     color: white;
 }
+
+header .burger {
+    margin-top: 20px;
+    display: none;
+}
+
+.burger div {
+    width: 25px; 
+    height: 3px;
+    margin: 5px;
+    background-color: rgb(41,41,41);
+   
+}
+
+/* Bootstrap header */ 
+
+a.nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(41,41,41);
+}
+
+
+
+
 
 /* section 1 */
 
@@ -141,7 +166,8 @@ header {
 #section1 h1 {
     font-size: 35px;
     font-weight: 400;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -243,7 +269,7 @@ header {
 
 footer {
     text-align: center;
-    background-color: white;
+    background-color: black;
     margin: 0px;
     box-shadow: 0px 0px 5px 0px #888888;
     font-size: 15px;
@@ -260,17 +286,22 @@ footer table {
 table th {
     padding-left: 50px;
     padding-right: 50px;
+    color: white;
 }
 
 table td {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 60px;
-    color: rgb(121, 121, 121);
+    color: rgb(224, 224, 224);
 }
 
 td img {
-    opacity: 70%;
+    opacity: 100%;
+}
+
+footer p.cr {
+    color: white;
 }
 
 /* Hours and Location */
@@ -322,6 +353,7 @@ form h2 {
 
 form h1 {
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 form p {
@@ -346,14 +378,14 @@ form textarea{
     padding-top: 10px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 0 5px #0000001c;
+    box-shadow: 0 0 5px #00000067;
 }
 
 .cborder input{
     border-radius: 10px;
     width: 500px;
 	height: 50px;
-    border: 1px solid #00000010;
+    border: 1px solid #00000067;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -381,4 +413,89 @@ input[type=submit] {
     border: none;
     border-radius: 25px;
     font-size: 18px;
+}
+
+/* for mini screen */
+
+@media screen and (max-width: 768px) {
+
+#pinknails img {
+    display: none;
+}
+
+#section1back {
+    margin-top: 100px;
+    margin: 15px;
+    z-index: 1;
+}
+
+#section1back img {
+    display: none;
+}
+
+#section1back h1 {
+    font-size: 30px;
+}
+
+#section1 h1 {
+    padding-bottom: 20px;
+}
+
+#section1back p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+#section2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+#section4 {
+    margin: 0px;
+}
+
+/* responsive nav bar 
+
+#headerbuttons {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+    display: block;
+    z-index: 2;
+    transform: translateX(100%);
+}
+
+
+.headerlist li {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.headerlist1 li {
+    padding: 0px;
+    text-align: center;
+}
+
+header .burger {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+*/
+
+}
+
+#headerbuttons:active {
+    transform: translateX(0%)
 }
