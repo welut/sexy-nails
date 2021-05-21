@@ -43,6 +43,11 @@ table td {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+table td #number{
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+}
 /*
 
 header {
