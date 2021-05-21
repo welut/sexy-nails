@@ -1,8 +1,49 @@
 @media screen and (max-device-width: 480px) {
 
 body {
-    box-sizing: border-box;
+    overflow-x: hidden;
 }
+
+#pinknails {
+    display: none;
+}
+
+div .centered {
+    display: none;
+}
+
+div .centered2 {
+    display: none;
+}
+
+/* Contact Us */
+
+form p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+form textarea{
+	width: 340px;
+	height: 200px;
+    margin-left: 0px;
+}
+
+.cborder input{
+    width: 340px;
+	height: 50px;
+    margin-left: 0px;
+}
+
+table td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*
 
 header {
     background: white;
@@ -57,33 +98,6 @@ header {
     margin-top: 80px;
 }
 
-
-table td {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-/* Contact Us */
-
-
-
-form p {
-    text-align: left;
-    font-size: 18px;
-    line-height: 40px;
-    padding: 10px;
-    width: 200px;
-    margin: 0px;
-}
-
-form textarea{
-	width: 330px;
-	height: 200px;
-}
-
-.cborder input{
-    width: 330px;
-	height: 50px;
-}
+*/
 
 }

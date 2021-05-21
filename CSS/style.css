@@ -350,6 +350,10 @@ table td {
     color: rgb(224, 224, 224);
 }
 
+table td #number{
+    text-decoration: none;
+}
+
 td img {
     opacity: 100%;
 }
