@@ -206,7 +206,12 @@ div #tableRow {
 }
 
 #pinknails {
-    margin-top: -7px;
+    display: flex;
+    justify-content: center;
+}
+
+#pinknails img {
+    width: auto;
 }
 
 #section11 {
@@ -628,7 +633,7 @@ header .burger {
     margin-right: 20px;
     cursor: pointer;
 }
-*/
+
 
 #pinknails h1 {
     margin-left: 110px;
@@ -639,6 +644,7 @@ header .burger {
     margin-left: 80px;
     margin-top: 430px;
 }
+*/
 
 .centered {
     position: absolute;
